@@ -48,7 +48,7 @@ export const translations = {
 
     // Location Section
     locationTitle: "O'qitish joyi",
-    locationCity: "Farg'ona shaxar, Tojmahal mehmonhonasi ro'parasida",
+    locationCity: "Farg'ona shaxar, Tojmahal mehmonxonasi ro'parasida",
     locationCityDesc: "Farg'ona shaxrining markazida joylashgan, zamonaviy o'rganish muhitida shaxsiy darslar taklif etamiz.",
     locationOnline: "Onlayn darslar mavjud",
     locationOnlineDesc:
