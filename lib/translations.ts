@@ -5,7 +5,7 @@ export const translations = {
     // Hero Section
     heroTitle: "Bekzod Qosimov",
     heroSubtitle: "Turk tili o'qituvchisi",
-    heroDescription: "Turk tili va madaniyatini o'rgatishga ishtiyoqli, 5 yillik onlayn va oflayn ta'lim tajribasi",
+    heroDescription: "Turk tili va madaniyatini o'rgatishga ishtiyoqli, 5 yillik onlayn va oflayn ta'lim tajribasi. \n Magistratura, Bakalavr va Doktorantura eshiklarini 3 oyda Turk tili bilan oching",
     heroInstagram: "Instagramda kuzatish",
     heroTelegram: "Telegramga qo'shilish",
 
@@ -36,6 +36,22 @@ export const translations = {
     advancedDuration: "Davomiyligi: 3 oy",
     advancedFrequency: "Haftada 3 mashg'ulot",
     learnMore: "Batafsil",
+        // Testimonials Section
+    testimonialsTitle: "O'quvchilar fikrlari",
+    testimonialsDesc: "O'quvchilarimning turk tili o'rganish tajribasi haqida fikrlari",
+    testimonial1Text:
+      "Bekzod hoca bilan turk tilini o'rganish ajoyib tajriba! U sabr-toqatli, ilhomlantiruvchi va har bir darsni qiziqarli qiladi. Men uning yordami bilan B2 darajasiga yetdim.",
+    testimonial1Name: "Kamola",
+    testimonial1Location: "Toshkent, O'zbekiston",
+    testimonial2Text:
+      "Men 5 oydan beri Bekzod hocadan dars olaman va natijalarim hayratlanarli. Uning o'qitish usuli juda samarali. Endi Turkiyada erkin gaplasha olaman!",
+    testimonial2Name: "Davron",
+    testimonial2Location: "Samarqand, O'zbekiston",
+    testimonial3Text:
+      "Eng yaxshi turk tili o'qituvchisi! Bekzod Hoca faqat tilni emas, balki turk madaniyati va odatlarini ham o'rgatadi. Har bir dars katta zavq!",
+    testimonial3Name: "Malika",
+    testimonial3Location: "Farg'ona, O'zbekiston",
+
 
     // Social Media Section
     socialTitle: "Men bilan bog'laning",
@@ -72,156 +88,187 @@ export const translations = {
     // Footer
     footerCopyright: "Barcha huquqlar himoyalangan",
   },
-ru: {
-  // Hero Section
-  heroTitle: "Бекзод Косимов",
-  heroSubtitle: "Преподаватель турецкого языка",
-  heroDescription:
-    "Преподаватель турецкого языка и культуры с 5-летним опытом онлайн и офлайн обучения",
-  heroInstagram: "Подписаться в Instagram",
-  heroTelegram: "Присоединиться в Telegram",
+  ru: {
+    // Hero Section
+    heroTitle: "Бекзод Косимов",
+    heroSubtitle: "Преподаватель турецкого языка",
+    heroDescription: "Страстно увлечён преподаванием турецкого языка и культуры, с 5-летним опытом онлайн и оффлайн обучения. Откройте двери магистратуры, бакалавриата и аспирантуры всего за 3 месяца с турецким языком.",
+    heroInstagram: "Подписаться в Instagram",
+    heroTelegram: "Присоединиться в Telegram",
 
-  // About Section
-  aboutTitle: "Обо мне",
-  aboutP1:
-    "Здравствуйте! Меня зовут Бекзод Косимов — я специализируюсь на преподавании турецкого языка. За 5 лет преподавательской деятельности я помог сотням студентов из разных стран глубже понять турецкий язык и культуру и уверенно применять их на практике.",
-  aboutP2:
-    "Моя философия обучения основана на создании комфортной и поддерживающей атмосферы, где ученики не боятся делать ошибки и радуются своим достижениям. Я считаю, что изучение языка должно быть практичным, интересным и тесно связанным с реальными жизненными ситуациями.",
-  aboutP3:
-    "Независимо от того, изучаете ли вы турецкий язык для путешествий, бизнеса или личного развития, я помогу вам достичь уверенного уровня владения языком с помощью персонализированных уроков, адаптированных под ваши цели и стиль обучения.",
+    // About Section
+    aboutTitle: "Обо мне",
+    aboutP1:
+      "Здравствуйте! Меня зовут Бекзод Косимов — я специализируюсь на преподавании турецкого языка. За 5 лет преподавательской деятельности я помог сотням студентов из разных стран глубже понять турецкий язык и культуру и уверенно применять их на практике.",
+    aboutP2:
+      "Моя философия обучения основана на создании комфортной и поддерживающей атмосферы, где ученики не боятся делать ошибки и радуются своим достижениям. Я считаю, что изучение языка должно быть практичным, интересным и тесно связанным с реальными жизненными ситуациями.",
+    aboutP3:
+      "Независимо от того, изучаете ли вы турецкий язык для путешествий, бизнеса или личного развития, я помогу вам достичь уверенного уровня владения языком с помощью персонализированных уроков, адаптированных под ваши цели и стиль обучения.",
 
-  // Courses Section
-  coursesTitle: "Курсы турецкого языка",
-  beginnerTitle: "Начальный",
-  beginnerDesc:
-    "Начните изучение турецкого языка с нуля. Освойте базовые приветствия, необходимый словарный запас и основы грамматики для повседневного общения.",
-  beginnerDuration: "Продолжительность: 1 месяц",
-  beginnerFrequency: "3 занятия в неделю",
+    // Courses Section
+    coursesTitle: "Курсы турецкого языка",
+    beginnerTitle: "Начальный",
+    beginnerDesc:
+      "Начните изучение турецкого языка с нуля. Освойте базовые приветствия, необходимый словарный запас и основы грамматики для повседневного общения.",
+    beginnerDuration: "Продолжительность: 1 месяц",
+    beginnerFrequency: "3 занятия в неделю",
 
-  intermediateTitle: "Средний",
-  intermediateDesc:
-    "Развивайте свои знания турецкого языка, изучая более сложную грамматику, устойчивые выражения и практикуя разговорную речь.",
-  intermediateDuration: "Продолжительность: 2 месяца",
-  intermediateFrequency: "3 занятия в неделю",
+    intermediateTitle: "Средний",
+    intermediateDesc:
+      "Развивайте свои знания турецкого языка, изучая более сложную грамматику, устойчивые выражения и практикуя разговорную речь.",
+    intermediateDuration: "Продолжительность: 2 месяца",
+    intermediateFrequency: "3 занятия в неделю",
 
-  advancedTitle: "Продвинутый",
-  advancedDesc:
-    "Достигните высокого уровня владения турецким языком. Улучшите произношение, познакомьтесь с литературой и уверенно обсуждайте сложные темы.",
-  advancedDuration: "Продолжительность: 3 месяца",
-  advancedFrequency: "3 занятия в неделю",
+    advancedTitle: "Продвинутый",
+    advancedDesc:
+      "Достигните высокого уровня владения турецким языком. Улучшите произношение, познакомьтесь с литературой и уверенно обсуждайте сложные темы.",
+    advancedDuration: "Продолжительность: 3 месяца",
+    advancedFrequency: "3 занятия в неделю",
 
-  learnMore: "Подробнее",
+    learnMore: "Подробнее",
 
-  // Social Media
-  socialTitle: "Связаться со мной",
-  socialDesc:
-    "Присоединяйтесь к сообществу изучающих турецкий язык! Подписывайтесь на меня в социальных сетях, чтобы получать полезные материалы, культурные заметки и мотивацию.",
-  instagramHandle: "@bekzod_hoca",
-  instagramDesc: "Ежедневные советы по турецкому языку и культуре",
-  telegramHandle: "@Turktili_Fergana",
-  telegramDesc: "Эксклюзивные материалы и сообщество учеников",
+    // Testimonials Section
+    testimonialsTitle: "Отзывы учеников",
+    testimonialsDesc: "Что говорят наши студенты о своем опыте изучения турецкого языка",
+    testimonial1Text:
+      "Изучение турецкого с Бекзод Косимов — это потрясающий опыт! Он терпеливый, вдохновляющий и делает каждый урок увлекательным. С его помощью я достиг уровня B2.",
+    testimonial1Name: "Камола",
+    testimonial1Location: "Ташкент, Узбекистан",
+    testimonial2Text:
+      "Я занимаюсь с Бекзод Косимов уже 5 месяцев и мои результаты впечатляющие. Его метод преподавания очень эффективен. Теперь я свободно говорю в Турции!",
+    testimonial2Name: "Даврон",
+    testimonial2Location: "Самарканд, Узбекистан",
+    testimonial3Text:
+      "Лучший преподаватель турецкого! Бекзод Косимов учит не только языку, но и турецкой культуре и традициям. Каждый урок приносит огромное удовольствие!",
+    testimonial3Name: "Малика",
+    testimonial3Location: "Фергана, Узбекистан",
 
-  // Location
-  locationTitle: "Место обучения",
-  locationCity: "Фергана, напротив гостиницы «Таджмахал»",
-  locationCityDesc:
-    "Очные занятия проводятся в центре города Фергана в комфортной и современной учебной обстановке.",
-  locationOnline: "Доступны онлайн-занятия",
-  locationOnlineDesc:
-    "Если вы не можете посещать занятия лично, я провожу интерактивные онлайн-уроки через Zoom для студентов со всего мира.",
+    // Social Media Section
+    socialTitle: "Связаться со мной",
+    socialDesc:
+      "Присоединяйтесь к сообществу изучающих турецкий язык! Подписывайтесь на меня в социальных сетях, чтобы получать полезные материалы, культурные заметки и мотивацию.",
+    instagramHandle: "@bekzod_hoca",
+    instagramDesc: "Ежедневные советы по турецкому языку и культуре",
+    telegramHandle: "@Turktili_Fergana",
+    telegramDesc: "Эксклюзивные материалы и сообщество учеников",
 
-  // Contact
-  contactTitle: "Связаться",
-  contactDesc:
-    "Готовы начать изучение турецкого языка? Оставьте сообщение, и я свяжусь с вами в ближайшее время.",
-  nameLabel: "Имя",
-  namePlaceholder: "Ваше полное имя",
-  phoneLabel: "Телефон",
-  phonePlaceholder: "+998 XX XXX XX XX",
-  messageLabel: "Сообщение",
-  messagePlaceholder: "Расскажите о ваших целях изучения турецкого языка...",
-  sendButton: "Отправить сообщение",
-  sendingButton: "Отправка...",
-  successMessage: "Сообщение успешно отправлено! Я скоро с вами свяжусь.",
-  errorMessage: "Произошла ошибка. Пожалуйста, попробуйте еще раз.",
+    // Location Section
+    locationTitle: "Место обучения",
+    locationCity: "Фергана, напротив гостиницы «Таджмахал»",
+    locationCityDesc:
+      "Очные занятия проводятся в центре города Фергана в комфортной и современной учебной обстановке.",
+    locationOnline: "Доступны онлайн-занятия",
+    locationOnlineDesc:
+      "Если вы не можете посещать занятия лично, я провожу интерактивные онлайн-уроки через Zoom для студентов со всего мира.",
 
-  footerCopyright: "Все права защищены",
-},
+    // Contact Section
+    contactTitle: "Связаться",
+    contactDesc:
+      "Готовы начать изучение турецкого языка? Оставьте сообщение, и я свяжусь с вами в ближайшее время.",
+    nameLabel: "Имя",
+    namePlaceholder: "Ваше полное имя",
+    phoneLabel: "Телефон",
+    phonePlaceholder: "+998 XX XXX XX XX",
+    messageLabel: "Сообщение",
+    messagePlaceholder: "Расскажите о ваших целях изучения турецкого языка...",
+    sendButton: "Отправить сообщение",
+    sendingButton: "Отправка...",
+    successMessage: "Сообщение успешно отправлено! Я скоро с вами свяжусь.",
+    errorMessage: "Произошла ошибка. Пожалуйста, попробуйте еще раз.",
 
-en: {
-  // Hero Section
-  heroTitle: "Bekzod Qosimov",
-  heroSubtitle: "Turkish Language Teacher",
-  heroDescription:
-    "Turkish language and culture teacher with 5 years of online and offline teaching experience",
-  heroInstagram: "Follow on Instagram",
-  heroTelegram: "Join Telegram",
+    // Footer
+    footerCopyright: "Все права защищены",
+  },
 
-  // About Section
-  aboutTitle: "About Me",
-  aboutP1:
-    "Hello! My name is Bekzod Qosimov, and I specialize in teaching the Turkish language. Over the past 5 years, I have helped hundreds of students from different countries better understand Turkish language and culture and confidently use them in real-life situations.",
-  aboutP2:
-    "My teaching philosophy focuses on creating a supportive and comfortable environment where students feel confident making mistakes and celebrating progress. I believe language learning should be practical, engaging, and closely connected to real-life scenarios.",
-  aboutP3:
-    "Whether you are learning Turkish for travel, business, or personal growth, I will guide you toward fluency through personalized lessons tailored to your goals and learning style.",
+  en: {
+    // Hero Section
+    heroTitle: "Bekzod Qosimov",
+    heroSubtitle: "Turkish Language Teacher",
+    heroDescription: "Passionate about teaching Turkish language and culture, with 5 years of online and offline teaching experience. Open the doors to Master's, Bachelor's, and Doctoral programs in just 3 months with Turkish.",
+    heroInstagram: "Follow on Instagram",
+    heroTelegram: "Join Telegram",
 
-  // Courses Section
-  coursesTitle: "Turkish Language Courses",
-  beginnerTitle: "Beginner",
-  beginnerDesc:
-    "Start learning Turkish from scratch. Learn basic greetings, essential vocabulary, and fundamental grammar structures for everyday communication.",
-  beginnerDuration: "Duration: 1 month",
-  beginnerFrequency: "3 sessions per week",
+    // About Section
+    aboutTitle: "About Me",
+    aboutP1:
+      "Hello! My name is Bekzod Qosimov, and I specialize in teaching the Turkish language. Over the past 5 years, I have helped hundreds of students from different countries better understand Turkish language and culture and confidently use them in real-life situations.",
+    aboutP2:
+      "My teaching philosophy focuses on creating a supportive and comfortable environment where students feel confident making mistakes and celebrating progress. I believe language learning should be practical, engaging, and closely connected to real-life scenarios.",
+    aboutP3:
+      "Whether you are learning Turkish for travel, business, or personal growth, I will guide you toward fluency through personalized lessons tailored to your goals and learning style.",
 
-  intermediateTitle: "Intermediate",
-  intermediateDesc:
-    "Improve your Turkish skills with more advanced grammar, common expressions, and conversational practice to speak with confidence.",
-  intermediateDuration: "Duration: 2 months",
-  intermediateFrequency: "3 sessions per week",
+    // Courses Section
+    coursesTitle: "Turkish Language Courses",
+    beginnerTitle: "Beginner",
+    beginnerDesc:
+      "Start learning Turkish from scratch. Learn basic greetings, essential vocabulary, and fundamental grammar structures for everyday communication.",
+    beginnerDuration: "Duration: 1 month",
+    beginnerFrequency: "3 sessions per week",
 
-  advancedTitle: "Advanced",
-  advancedDesc:
-    "Achieve an advanced level of Turkish. Refine your pronunciation, explore literature, and confidently discuss complex topics.",
-  advancedDuration: "Duration: 3 months",
-  advancedFrequency: "3 sessions per week",
+    intermediateTitle: "Intermediate",
+    intermediateDesc:
+      "Improve your Turkish skills with more advanced grammar, common expressions, and conversational practice to speak with confidence.",
+    intermediateDuration: "Duration: 2 months",
+    intermediateFrequency: "3 sessions per week",
 
-  learnMore: "Learn More",
+    advancedTitle: "Advanced",
+    advancedDesc:
+      "Achieve an advanced level of Turkish. Refine your pronunciation, explore literature, and confidently discuss complex topics.",
+    advancedDuration: "Duration: 3 months",
+    advancedFrequency: "3 sessions per week",
 
-  // Social Media
-  socialTitle: "Connect With Me",
-  socialDesc:
-    "Join a growing community of Turkish language learners. Follow me on social media for useful lessons, cultural insights, and motivation.",
-  instagramHandle: "@bekzod_hoca",
-  instagramDesc: "Daily Turkish language tips and cultural insights",
-  telegramHandle: "@Turktili_Fergana",
-  telegramDesc: "Exclusive content and student community",
+    learnMore: "Learn More",
 
-  // Location
-  locationTitle: "Teaching Location",
-  locationCity: "Fergana, near Tojmahal Hotel",
-  locationCityDesc:
-    "In-person lessons are held in the center of Fergana in a modern and comfortable learning environment.",
-  locationOnline: "Online Lessons Available",
-  locationOnlineDesc:
-    "Can’t attend in person? I offer interactive online lessons via Zoom for students worldwide.",
+    // Testimonials Section
+    testimonialsTitle: "Student Reviews",
+    testimonialsDesc: "What our students say about their Turkish learning experience",
+    testimonial1Text:
+      "Learning Turkish with Bekzod Qosimov has been an amazing experience! He is patient, inspiring, and makes every lesson engaging. I've reached B2 level with his help.",
+    testimonial1Name: "Kamola",
+    testimonial1Location: "Tashkent, Uzbekistan",
+    testimonial2Text:
+      "I've been taking lessons with Bekzod Qosimov for 5 months and my progress is incredible. His teaching method is very effective. Now I can speak freely in Turkey!",
+    testimonial2Name: "Davron",
+    testimonial2Location: "Samarkand, Uzbekistan",
+    testimonial3Text:
+      "The best Turkish teacher! Bekzod Qosimov teaches not only the language but also Turkish culture and traditions. Every lesson is a great pleasure!",
+    testimonial3Name: "Malika",
+    testimonial3Location: "Fergana, Uzbekistan",
 
-  // Contact
-  contactTitle: "Get In Touch",
-  contactDesc:
-    "Ready to start your Turkish learning journey? Send me a message and I’ll get back to you soon.",
-  nameLabel: "Name",
-  namePlaceholder: "Your full name",
-  phoneLabel: "Phone",
-  phonePlaceholder: "+998 XX XXX XX XX",
-  messageLabel: "Message",
-  messagePlaceholder: "Tell me about your Turkish learning goals...",
-  sendButton: "Send Message",
-  sendingButton: "Sending...",
-  successMessage: "Your message has been sent successfully! I’ll contact you soon.",
-  errorMessage: "An error occurred. Please try again.",
+    // Social Media Section
+    socialTitle: "Connect With Me",
+    socialDesc:
+      "Join a growing community of Turkish language learners. Follow me on social media for useful lessons, cultural insights, and motivation.",
+    instagramHandle: "@bekzod_hoca",
+    instagramDesc: "Daily Turkish language tips and cultural insights",
+    telegramHandle: "@Turktili_Fergana",
+    telegramDesc: "Exclusive content and student community",
 
-  footerCopyright: "All rights reserved",
-},
+    // Location Section
+    locationTitle: "Teaching Location",
+    locationCity: "Fergana, near Tojmahal Hotel",
+    locationCityDesc:
+      "In-person lessons are held in the center of Fergana in a modern and comfortable learning environment.",
+    locationOnline: "Online Lessons Available",
+    locationOnlineDesc:
+      "Can’t attend in person? I offer interactive online lessons via Zoom for students worldwide.",
 
+    // Contact Section
+    contactTitle: "Get In Touch",
+    contactDesc:
+      "Ready to start your Turkish learning journey? Send me a message and I’ll get back to you soon.",
+    nameLabel: "Name",
+    namePlaceholder: "Your full name",
+    phoneLabel: "Phone",
+    phonePlaceholder: "+998 XX XXX XX XX",
+    messageLabel: "Message",
+    messagePlaceholder: "Tell me about your Turkish learning goals...",
+    sendButton: "Send Message",
+    sendingButton: "Sending...",
+    successMessage: "Your message has been sent successfully! I’ll contact you soon.",
+    errorMessage: "An error occurred. Please try again.",
+
+    // Footer
+    footerCopyright: "All rights reserved",
+  },
 }

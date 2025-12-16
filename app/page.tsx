@@ -13,7 +13,6 @@ import { translations, type Language } from "@/lib/translations"
 export default function Home() {
   const [language, setLanguage] = useState<Language>("uz")
   const t = translations[language]
-
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -33,7 +32,7 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       })
-
+      
       if (response.ok) {
         setSubmitStatus("success")
         setFormData({ name: "", phone: "", message: "" })
@@ -47,7 +46,6 @@ export default function Home() {
       setIsSubmitting(false)
     }
   }
-
   return (
     <div className="min-h-screen bg-background">
       <div className="fixed top-4 right-4 z-50 flex gap-2 bg-white rounded-lg shadow-lg p-2">
@@ -197,6 +195,91 @@ export default function Home() {
                 <a href="https://t.me/Turktili_Fergana" target="blank">
                 <Button className="w-full cursor-pointer bg-turkish-red hover:bg-turkish-dark">{t.learnMore}</Button>
                 </a>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-20 bg-cream/30">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 text-center">{t.testimonialsTitle}</h2>
+          <p className="text-lg text-muted-foreground mb-12 text-center max-w-2xl mx-auto">{t.testimonialsDesc}</p>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Testimonial 1 */}
+            <Card className="border-2 hover:shadow-lg transition-shadow">
+              <CardContent className="p-8">
+                <div className="mb-6">
+                  <div className="flex gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 fill-turkish-red" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed mb-6 italic">"{t.testimonial1Text}"</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-turkish-red/10 rounded-full flex items-center justify-center">
+                    <span className="text-turkish-red font-bold text-lg">K</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-foreground">{t.testimonial1Name}</p>
+                    <p className="text-sm text-muted-foreground">{t.testimonial1Location}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 2 */}
+            <Card className="border-2 border-turkish-red hover:shadow-lg transition-shadow">
+              <CardContent className="p-8">
+                <div className="mb-6">
+                  <div className="flex gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 fill-turkish-red" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed mb-6 italic">"{t.testimonial2Text}"</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-turkish-red/10 rounded-full flex items-center justify-center">
+                    <span className="text-turkish-red font-bold text-lg">D</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-foreground">{t.testimonial2Name}</p>
+                    <p className="text-sm text-muted-foreground">{t.testimonial2Location}</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Testimonial 3 */}
+            <Card className="border-2 hover:shadow-lg transition-shadow">
+              <CardContent className="p-8">
+                <div className="mb-6">
+                  <div className="flex gap-1 mb-4">
+                    {[...Array(5)].map((_, i) => (
+                      <svg key={i} className="w-5 h-5 fill-turkish-red" viewBox="0 0 20 20">
+                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed mb-6 italic">"{t.testimonial3Text}"</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-turkish-red/10 rounded-full flex items-center justify-center">
+                    <span className="text-turkish-red font-bold text-lg">M</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-foreground">{t.testimonial3Name}</p>
+                    <p className="text-sm text-muted-foreground">{t.testimonial3Location}</p>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -400,6 +483,8 @@ export default function Home() {
             <p className="text-cream/60 text-sm">
               © {new Date().getFullYear()} {t.heroTitle} – {t.footerCopyright}
             </p>
+            <br />
+            <p className="text-cream/60 text-xs">Programmer: <a className="underline" href="https://t.me/kadirovs_blogg" target="blank">KadirovJS</a></p>
           </div>
         </div>
       </footer>

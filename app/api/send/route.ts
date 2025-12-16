@@ -1,9 +1,8 @@
 export async function POST(req: Request) {
   try {
     const { name, phone, message } = await req.json()
-
     const text = `📩 Yangi so'rov:
-
+  
 👤 Ism: ${name}
 📞 Telefon: ${phone || "Ko'rsatilmagan"}
 💬 Xabar: ${message}`
@@ -16,7 +15,7 @@ export async function POST(req: Request) {
         text,
       }),
     })
-
+    
     if (!response.ok) {
       throw new Error("Failed to send message to Telegram")
     }
