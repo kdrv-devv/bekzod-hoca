@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://eskiz.uz/sitemap.xml",
+    sitemap: "https://bekzodhoca.uz/sitemap.xml",
   };
 }
