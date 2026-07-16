@@ -1,11 +1,17 @@
-import type { MetadataRoute } from "next";
+import type { MetadataRoute } from "next"
+
+const siteUrl = "https://bekzodhoca.uz"
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-    },
-    sitemap: "https://bekzodhoca.uz/sitemap.xml",
-  };
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/api/"],
+      },
+    ],
+    sitemap: `${siteUrl}/sitemap.xml`,
+    host: siteUrl,
+  }
 }
